@@ -6,7 +6,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME         => 'Acme::123',
     VERSION_FROM => 'lib/Acme/123.pm', # finds \$VERSION
-    AUTHOR       => 'Nathan A. McCamish ()',
+    AUTHOR       => 'Nathan McClurg ()',
     ABSTRACT     => 'Acme::123 - Prints numbers in different languages',
     PREREQ_PM    => {
                      'Test::Simple' => 0.44,

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-123
-version:            0.01
+version:            0.02
 abstract:           Acme::123 - Prints numbers in different languages
 author:
     - Nathan McClurg ()

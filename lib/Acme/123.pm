@@ -4,7 +4,7 @@ require Exporter;
 BEGIN {
     use Exporter ();
     use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-    $VERSION     = '0.01';
+    $VERSION     = '0.02';
     @ISA         = qw(Exporter);
     @EXPORT      = qw(printnumbers setLanguage getnumbers);
     @EXPORT_OK   = qw();
@@ -14,7 +14,8 @@ BEGIN {
 my %languages = (
 	'en' => [qw /one two three four five six seven eight nine ten/],
       'fr' => [qw /un deux trois quatre cinq six sept huit neuf dix/],
-	'sp' => [qw /uno dos tres cuatro cinco seis siete ocho nueve diez/]
+	'sp' => [qw /uno dos tres cuatro cinco seis siete ocho nueve diez/],
+	'it' => [qw /uno due tre quattro cinque sei sette otto nove dieci/]
 );
 my @numbers = @{$languages {en}};
 
@@ -60,7 +61,7 @@ Acme::123 - Prints 1-10 in different languages
 =head1 DESCRIPTION
 
 Prints numbers one through ten in different languages. Currently only
-English, French, and Spanish supported. In later versions, more languages
+English, French, Spanish, and Italian supported. In later versions, more languages
 will be supported.
 
 =head1 TODO
