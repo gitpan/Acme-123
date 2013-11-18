@@ -4,7 +4,7 @@ require Exporter;
 BEGIN {
     use Exporter ();
     use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-    $VERSION     = '0.03';
+    $VERSION     = '0.04';
     @ISA         = qw(Exporter);
     @EXPORT      = qw(printnumbers setLanguage getnumbers);
     @EXPORT_OK   = qw();
@@ -73,7 +73,7 @@ will be supported.
 
 =head1 AUTHOR
 
-    Nathan McClurg <jprogrammer082@gmail.com>  
+    Nathan <jprogrammer082@gmail.com>  
 
 =head1 COPYRIGHT
 

@@ -1,5 +1,9 @@
 Revision history for ACME::123
 
+0.04 Mon Nov 18 10:40:50 2013
+
+    - Added more tests
+
 0.03 Mon Nov 18 09:31:54 2013
 
     - fixed critical bug in setLanguage
