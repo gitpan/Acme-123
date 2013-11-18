@@ -4,7 +4,7 @@ require Exporter;
 BEGIN {
     use Exporter ();
     use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-    $VERSION     = '0.02';
+    $VERSION     = '0.03';
     @ISA         = qw(Exporter);
     @EXPORT      = qw(printnumbers setLanguage getnumbers);
     @EXPORT_OK   = qw();
@@ -26,6 +26,7 @@ sub printnumbers {
 }
 
 sub setLanguage {
+	my $self = shift;
 	my $language = shift;
 	@numbers = @{$languages {$language}};
 }
